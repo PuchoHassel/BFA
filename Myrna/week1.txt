@@ -5,6 +5,8 @@ Ik heb de remote repository van de groep gecloned. Daarna heb ik een mapje aange
 
 Wat ga ik doen?
 
-
+Ik ga mijn opdrachten pushen naar github.
 
 Waar ben ik tegenaan gelopen?
+
+Niet iedereen kan tegelijkertijd verandering naar de github pushen.
