@@ -1,5 +1,6 @@
 Wat heb ik gedaan?
 
+Ik heb de remote repository van de groep gecloned. Daarna heb ik een mapje aangemaakt met mijn naam en in die mapje heb ik een week1.txt bestand aangemaakt.
 
 
 Wat ga ik doen?
