@@ -4,4 +4,4 @@ week 1:
 Kit - 
 Myrna - 
 Pucho - 
-Naomi(Projectleider) - Eigen files aangemaakt, en naar github gepusht
+Naomi(Projectleider) - Eigen files aangemaakt en naar github gepusht
