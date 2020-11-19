@@ -1,5 +1,8 @@
-Wat heb ik gedaan?
+- Wat heb ik gedaan?
+Mijn local repo gepusht naar mijn remote repo
 
-Wat ga ik doen?
+- Wat ga ik doen?
+Na het pushen gaan we beginnen met de To Do stappen van het Trello bord te verdelen
 
-Waar ben ik tegenaan gelopen?
+- Waar ben ik tegenaan gelopen?
+Het pushen naar de remote repository ging niet helemaal goed. Na heel lang proberen is het toch gelukt
