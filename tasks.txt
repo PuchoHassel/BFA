@@ -1,7 +1,7 @@
 https://trello.com/b/DehoV90x/android-bord
 
 week 1:
-Kit - 
+Kit - Eigen files aangemaakt, en naar github gepusht
 Myrna - 
 Pucho Files gemaakt en pull & push on github 
 Naomi(Projectleider) - Eigen files aangemaakt, en naar github gepusht
