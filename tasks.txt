@@ -2,13 +2,8 @@ https://trello.com/b/DehoV90x/android-bord
 
 week 1:
 <<<<<<< HEAD
-Kit - 
-Myrna - Mijn eigen files aangemaakt.I pulled and pushed files to github.
-Pucho - 
-Naomi(Projectleider) - Eigen files aangemaakt, en naar github gepusht
-=======
 Kit - Eigen files aangemaakt, en naar github gepusht
-Myrna - 
+Myrna - Mijn eigen files aangemaakt.I pulled and pushed files to github.
 Pucho Files gemaakt en pull & push on github 
 Naomi(Projectleider) - Eigen files aangemaakt, en naar github gepusht
 >>>>>>> 813a0808423fe655315a5f4aeced764c17b78d34
