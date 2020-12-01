@@ -16,8 +16,8 @@ Niet iedereen kan tegelijkertijd verandering naar de github pushen.
 
 WEEK 2-
 
-1.
+1. De problemen met de android App uitgewerkt samen met mijn groepje zodat ik kon beginnen aan de vertaal functie van de app.
 
-2.
+2. Beginnen aan de vertaal functie die in de app moet.
 
-3.
+3. Tegelijkertijd in een map werken waardoor sommige verandering niet met elkaar kloppen. Kon de emulator niet openen voor een tijdje maar daarna is het wel gelukt.
