@@ -1,7 +1,8 @@
 - Wat heb ik gedaan?
-
+Afbeeldingen toegevoegd aan de app (Vlag Nederland en Engeland)
 
 - Wat ga ik doen?
-
+Verder werken aan de punten in Trello
 
 - Waar ben ik tegenaan gelopen?
+Issues met het pushen op de verschillende local repo
