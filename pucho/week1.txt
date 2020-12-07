@@ -1,3 +1,0 @@
-1. heb een local rep gemaakt  
-2. ik ga mijn opdrachten pushen op het github
-3. git pull en git push krijg ik problemen eraan, maar eindelijk is het gelukt.
