@@ -1,2 +1,0 @@
-com/example/bossfood/BuildConfig.java
- com.example.bossfood.BuildConfig
