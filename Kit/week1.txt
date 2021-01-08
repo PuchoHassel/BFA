@@ -1,0 +1,3 @@
+1. Ik heb remote repo gemaakt, mijn eigen files een een nieuwe android project aangemaakt.
+2. To Do lijst overleggen voor het Trello bord
+3. Pushen/committen werd lastig met z'n allen tegelijkertijd.
