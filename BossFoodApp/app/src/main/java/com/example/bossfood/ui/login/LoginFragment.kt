@@ -13,7 +13,7 @@ import com.example.bossfood.ui.gallery.GalleryViewModel
 
 class LoginFragment : Fragment() {
 
-    private lateinit var loginViewModel: GalleryViewModel
+    private lateinit var loginViewModel: LoginViewModel
 
     override fun onCreateView(
             inflater: LayoutInflater,
@@ -21,9 +21,9 @@ class LoginFragment : Fragment() {
             savedInstanceState: Bundle?
     ): View? {
         loginViewModel =
-                ViewModelProvider(this).get(GalleryViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_gallery, container, false)
-        val textView: TextView = root.findViewById(R.id.text_gallery)
+                ViewModelProvider(this).get(LoginViewModel::class.java)
+        val root = inflater.inflate(R.layout.fragment_login, container, false)
+        val textView: TextView = root.findViewById(R.id.text_login)
         loginViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
