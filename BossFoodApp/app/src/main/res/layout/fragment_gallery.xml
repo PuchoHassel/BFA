@@ -6,17 +6,216 @@
     android:layout_height="match_parent"
     tools:context=".ui.gallery.GalleryFragment">
 
-    <TextView
-        android:id="@+id/text_gallery"
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
+        android:fillViewport="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_gallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="28dp"
+                android:text="Creamy Lemon Parmesan Chicken"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="259dp"
+                android:layout_height="153dp"
+                android:layout_marginStart="44dp"
+                android:layout_marginLeft="44dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="44dp"
+                android:layout_marginRight="44dp"
+                android:layout_marginBottom="188dp"
+                android:src="@drawable/_90313_creamy_lemon_parmesan_chicken_horizontal_1553026901"
+                app:layout_constraintBottom_toTopOf="@+id/text_gallery"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.505"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.084"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="-160dp"
+                android:text="Ingredients"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="297dp"
+                android:layout_height="237dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="20dp"
+                android:freezesText="false"
+                android:lines="15"
+                android:text="       1/2 c. all-purpose flour \n
+        3/4 c. freshly grated Parmesan, divided \n
+        1 tsp. garlic powder \n
+        Zest of 1/2 lemon \n
+        Kosher salt Freshly ground black pepper \n
+        3 boneless skinless chicken breasts \n
+        2 tbsp. extra-virgin olive oil \n
+        1 tbsp. butter \n
+        2 cloves garlic, minced \n
+        2 c. baby spinach \n
+        1 c. heavy cream \n
+        2/3 c. low-sodium chicken broth \n
+        1 lemon, sliced in rounds and halved \n
+        1/4 c. thinly sliced fresh basil"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView6"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginLeft="108dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="26dp"
+                android:text="Chicken Fried Rice"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/imageView3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="259dp"
+                android:layout_height="163dp"
+                android:layout_marginStart="44dp"
+                android:layout_marginLeft="44dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/chicken_fried_rice_horizontal_1545488885"
+                app:layout_constraintBottom_toTopOf="@+id/textView7"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginLeft="44dp"
+                android:layout_marginTop="12dp"
+                android:text="Ingredients"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="              2 tbsp. extra-virgin olive oil \n
+             3 chicken breasts (about 1 1/2 lb.) \n
+             Kosher salt Freshly ground black pepper \n
+             2 tbsp. sesame oil, divided \n
+             1 medium onion, chopped \n
+             2 carrots, peeled and diced \n
+             3 cloves garlic, minced \n
+             1 tbsp. freshly minced ginger \n
+             4 c. cooked white rice (preferably leftover) \n
+             3/4 c. frozen peas \n
+             3 large eggs, beaten \n
+             3 tbsp. low-sodium soy sauce \n
+             2 green onions, thinly sliced"
+                app:layout_constraintTop_toBottomOf="@+id/textView7"
+                tools:layout_editor_absoluteX="45dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginLeft="108dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="26dp"
+                android:text="Vegan Sweet Potato Curry"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="259dp"
+                android:layout_height="163dp"
+                android:layout_marginStart="44dp"
+                android:layout_marginLeft="44dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/vegan_sweet_potato_curry_horizontal_1_jpg_1608837653" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginLeft="44dp"
+                android:layout_marginTop="12dp"
+                android:textStyle="bold"
+                android:text="Ingredients" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="297dp"
+                android:layout_height="237dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="20dp"
+                android:text="           2 tbsp. extra-virgin olive oil \n
+          1 small onion, quartered \n
+          6 cloves garlic, thinly sliced \n
+          1/4 c. green curry paste \n
+          2 sweet potatoes, peeled and diced \n
+          1 (14-oz.) can coconut milk \n
+          2 bird's eye chilis (optional) \n
+          1 1/2 c. broccoli florets \n
+          1 1/2 c. cauliflower florets \n
+          1 c. fried tofu puffs \n
+          1 1/2 c. water, plus more as needed \n
+          Cooked rice or noodles, for serving" />
+
+
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
